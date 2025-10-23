@@ -80,3 +80,42 @@ img {
 .video-link:hover { background: darkblue; }
 
 footer { text-align: center; background: black; color: white; padding: 10px; }
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+}
+
+.project-link {
+  display: inline-block;
+  background: linear-gradient(blue, blueviolet);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  opacity: 0.85;
+}
+
+
